@@ -11,3 +11,35 @@
 .rosa{
     background-color: pink;
 }
+
+.azulclaro{
+    background-color: lightblue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.gris{
+    background-color: grey;
+    min-height: 50px;
+}
+
+.azul2{
+    background-color: aqua;
+}
+
+.naranja{
+    background-color: rgb(241, 127, 13);
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+
+    text-align: center;
+
+}
