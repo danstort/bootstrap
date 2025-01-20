@@ -1,31 +1,84 @@
-.col-12{
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+h1, h2, h3 {
+    font-family: "Yellowtail", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, a{
+    font-family: "Sour Gummy", serif;
+    
+}
+
+.col-12 {
 
     border: 1px solid black;
 }
 
-.navbar{
+.navbar {
     background-color: antiquewhite;
-   
+
 }
 
-.nav-link{
+.nav-link {
     color: green !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: aliceblue;
 }
 
-.navbar-nav{
+.navbar-nav {
     text-align: center;
 }
 
-.sin{
+.sin {
     padding: 0px;
-    
+
 }
 
-@media screen and (min-width: 576px){
-   
-    
+.personal {
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.textoequipo {
+    text-align: center;
+}
+
+.fondopie {
+    background-color: green;
+    color: white;
+}
+
+.fondo1 {
+    background-color: antiquewhite;
+
+}
+
+.fondo2 {
+    background-color: beige;
+}
+
+@media screen and (min-width: 576px) {
+
+    .personal {
+        width: 60%;
+        margin: 10% 20% 10% 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .personal {
+        width: 80%;
+        margin: 10%;
+    }
 }
