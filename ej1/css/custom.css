@@ -3,7 +3,7 @@
 
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Yellowtail", serif;
     font-weight: 400;
     font-style: normal;
@@ -14,10 +14,13 @@ p, a{
     
 }
 
-.col-12 {
-
-    border: 1px solid black;
+h5 {
+    font-family: "Sour Gummy", serif;
+    font-size: 2em;
+    
 }
+
+
 
 .navbar {
     background-color: antiquewhite;
@@ -67,11 +70,30 @@ p, a{
     background-color: beige;
 }
 
+.fotomapa{
+
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 @media screen and (min-width: 576px) {
 
     .personal {
         width: 60%;
         margin: 10% 20% 10% 20%;
+    }
+
+    .fotomapa{
+
+        width: 45%;
+        margin-top: 20%;
+        margin-left: 25%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        
     }
 }
 
@@ -80,5 +102,15 @@ p, a{
     .personal {
         width: 80%;
         margin: 10%;
+    }
+
+    .fotomapa{
+
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+        
     }
 }
