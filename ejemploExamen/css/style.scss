@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'funciones';
+
+.col-12{
+    padding: 0;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/pizza.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imagenseccion{
+
+    width: 100%;
+  }
+
+  .imagenequipo{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
